@@ -16,9 +16,9 @@ public class OperacaoMat {
         float div = (num1/num2);
         float mult = (num1*num2);
         
-        System.out.printf("\n%.2f + %.2f = %.2f\n", num1, num2, soma);
-        System.out.printf("%.2f - %.2f = %.2f\n", num1, num2, subtracao);
-        System.out.printf("%.2f x %.2f = %.2f\n", num1, num2, mult);
-        System.out.printf("%.2f : %.2f = %.2f\n", num1, num2, div);
+        System.out.printf("\n%.1f + %.1f = %.2f\n", num1, num2, soma);
+        System.out.printf("%.1f - %.1f = %.2f\n", num1, num2, subtracao);
+        System.out.printf("%.1f x %.1f = %.2f\n", num1, num2, mult);
+        System.out.printf("%.1f : %.1f = %.2f\n", num1, num2, div);
     }
 }
