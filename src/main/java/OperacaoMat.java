@@ -1,6 +1,6 @@
 import java.util.Scanner;
 //@author jeanc
-public class OperacaoMat {
+public class OperacaoMat{
 
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
@@ -20,6 +20,5 @@ public class OperacaoMat {
         System.out.printf("%.1f - %.1f = %.2f\n", num1, num2, subtracao);
         System.out.printf("%.1f x %.1f = %.2f\n", num1, num2, mult);
         System.out.printf("%.1f : %.1f = %.2f\n", num1, num2, div);
-        
     }
 }
