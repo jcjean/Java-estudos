@@ -5,7 +5,7 @@ import java.util.Random;
  *
  * @author jeanc
  */
-
+//printa numeros aleatorios entre 1000 e 1999 se  o resto da divisao por 11 for 5
 public class TesteFor {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
