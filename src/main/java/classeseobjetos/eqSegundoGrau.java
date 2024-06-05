@@ -1,6 +1,5 @@
 package classeseobjetos;
 import java.util.Scanner;
-
 /**
  *
  * @author jeanc
