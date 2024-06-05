@@ -25,12 +25,12 @@ public class EquacaoSegundoGrau {
             }else{
                 delta = -delta;
                 sqrtDelta = (float)Math.sqrt(delta);
-                System.out.print("\nNão possue raízes reais.\n");
+                System.out.println("Não possue raízes reais.\n");
                 System.out.printf("Raiz 1: %.2f + i.%.2f\n", (-b)/(2*a), (sqrtDelta)/(2*a));
                 System.out.printf("Raiz 2: %.2f - i.%.2f\n", (-b)/(2*a), (sqrtDelta)/(2*a));
             }
         }else{
-            System.out.print("\nValor de 'a' igual a 0. Programa encerrado!\n");
+            System.out.println("Valor de 'a' igual a 0. Programa encerrado!\n");
         }
     }
 }
