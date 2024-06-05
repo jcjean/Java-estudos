@@ -28,9 +28,9 @@ public class Trigonometricas {
 } 
 -----------------------------
 Módulo, máximo, mínimo e arredondamento (respectivamente)
-Math.abs(numero)
-Math.min(num1,num2)
+Math.abs(numero))
 Math.max(num1,num2)
+Math.min(num1,num2)
 
 Para arredondar um número para cima, usamos: Math.ceil(numero)
 Para arredondar um número para baixo, usamos: Math.floor(numero)
